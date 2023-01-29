@@ -1,3 +1,4 @@
 router
 outlet
-forward ref
+forward ref (basically passing ref to children components through forwardRef function, it passes ref as 2nd parameter after props eg. forwardRef((props, ref)=>{return body})   )
+parallex
